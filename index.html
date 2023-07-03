@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <title>Card_Using_Grid</title>
+        <style>
+            /*EXTRA KAAM*/
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            .text{
+                color: aliceblue;
+            }
+            .text1{
+                color: aliceblue;
+                text-align: center;
+            }
+
+
+
+            /*HEADER KA KAAM*/
+            header{
+                height: 8vh;
+                background-color: rgb(13, 13, 13);
+            }
+            #div01{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 50px;
+            }
+            #div012{
+                align-items: center;
+                margin-left: 0.8rem;
+                color: aliceblue;
+                display: flex;
+                font-size: 1rem;
+            }
+            #div012 a{
+                color: aliceblue;
+                text-decoration: none;
+                margin-left: 5rem;
+                justify-content: space-evenly;
+
+            }
+
+
+
+
+
+            /*BODY KA KAAM*/
+            main{
+                height: 75vh;
+                background-color:rgb(38, 38, 38) ;
+            }
+
+            #div02{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px 5px 5px;
+            }
+            .items:hover{
+                box-shadow: 5px 5px 25px red;
+                background-color: cornsilk;
+                transition: 1s;
+                color: darkblue;
+            }
+            .items h3:hover{
+                color: red;
+                transition: 1s;
+            }
+            .items{
+                height: 175px;
+                width: 200px;
+                border-radius: 10px 10px 10px;
+                background-color: white;
+                border: 2px solid transparent;
+                box-shadow: 3px 3px 3px white;
+                margin: 10px;
+                text-align: center;
+            }
+            .imagesize{
+                height: 140px;
+                width: 200px;
+                border-radius: 2px 2px 2px solid black;
+            }
+
+            /*FOOTER KA KAAM*/
+
+            .foot-panel1{
+                background-color: black;
+                color: white;
+                height: 150px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            ul p{
+                font-weight: 700;
+            }
+            ul{
+                margin-top: 20px;
+            }
+            ul a{
+                display: block;
+                font-size: 0.85rem;
+                margin-top: 10px;
+                color: #DDDDDD;
+            }
+            .social-handles{
+                font-weight: 700;
+                margin-top: 20px;
+            }
+            .logo-med{
+                margin: 20px;
+            }
+            .icon{
+                height: 45px;
+                width: 45px;
+            }
+            .icon1{
+                height: 45px;
+                width: 45px;
+                border-radius: 2px 2px 2px solid black;
+            }
+            a{
+                margin-left: 10px;
+            }
+            .social-handles a{
+                color: skyblue;
+            }
+            
+
+
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div id="div01">
+                <div>
+                    <h1 class="text">Horror Animes</h1>
+
+                </div>
+
+                <div id="div012" >
+                    <h2><a href="" target="_blank">Home</a></h2>
+                    <h2><a href="" target="_blank">Genre</a></h2>
+                    <h2><a href="" target="_blank">Trending</a></h2>
+                    <h2><a href="" target="_blank">Upcoming</a></h2>
+
+                </div>
+
+                <div id="div012">
+                    <h1 class="text"><a href=""><img src="search-round-svgrepo-com (1).svg" class="icon">Search Anime</a></h1>
+                </div>
+
+            </div>
+        </header>
+        <hr>
+
+
+        <main>
+            <div>
+                <h1 class="text1"><u>Top 10 Horror Animes</u></h1>
+            </div>
+            <br>
+            <div id="div02">
+                <div class="items">
+                    <img src="junji.jpg"  class="imagesize">
+                    <h3><a href="">Junji Ito Collection</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="para.jpg" class="imagesize">
+                    <h3><a href="">Paranoia Agent</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="promise.jpg" class="imagesize">
+                    <h3><a href="">The Promised Neverland</a></h3>
+                    <br>
+                </div> 
+
+
+                <div class="items">
+                    <img src="another.jpg" class="imagesize">
+                    <h3><a href="">Another</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="shiki.jpg" class="imagesize">
+                    <h3><a href="">Shiki</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="hellgirl.jpg" class="imagesize">
+                    <h3><a href="">Hell Girl</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="ghostst.jpg" class="imagesize">
+                    <h3><a href="">Ghost Stories</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="ghosthunt.jpg" class="imagesize">
+                    <h3><a href="">Ghost Hunt</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="devilman.jpg" class="imagesize">
+                    <h3><a href="">Devilman Crybaby</a></h3>
+                    <br>
+                </div>
+
+
+                <div class="items">
+                    <img src="corpse.jpg" class="imagesize">
+                    <h3><a href="">Corpse Party: Tortured Souls</a></h3>
+                    <br>
+                </div>
+
+            </div>
+        </main>
+        <hr>
+
+
+        <footer>
+            <div class="foot-panel1">
+                <ul>
+                    <p>Contact Info</p>
+                   <a> Company</a>
+                    <a>About</a>
+                    <a>Jobs</a>
+                    <a>For the Records</a>
+                </ul>
+                <ul>
+                    <p>For the Artist</p>
+                    <a>Developers</a>
+                    <a>Adverting</a>
+                    <a>Useful Links</a>
+                </ul>
+                <div class="social-handles">
+                    <p>Social Media Handles</p>
+                    <div class="logo-med">
+                        <a href="" target="_blank"><img src="instagram-1-svgrepo-com.svg" class="icon"></a>
+                        <a href="" target="_blank"><img src="facebook-color-svgrepo-com.svg" class="icon"></a>
+                        <a href="" target="_blank"><img src="twitter-svgrepo-com.svg" class="icon"></a>
+                        <a href=""  target="_blank"><img src="whatsapp-svgrepo-com.svg" class="icon"></a>
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
